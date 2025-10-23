@@ -1,0 +1,6 @@
+Account,Amount,Type
+Cash,20000,Asset
+Accounts Receivable,10000,Asset
+Equipment,50000,Asset
+Accounts Payable,5000,Liability
+Retained Earnings,75000,Equity

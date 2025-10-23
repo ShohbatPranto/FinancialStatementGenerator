@@ -1,0 +1,4 @@
+Account,Amount,Affects,BalanceType
+Accrued Revenue,3000,Revenue,Asset
+Accrued Expense,2000,Expense,Liability
+Deferred Revenue,1500,Revenue,Liability

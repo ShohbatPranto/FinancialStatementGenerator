@@ -1,0 +1,6 @@
+Date,Account,Category,Amount,Type
+2025-01-05,Sales,Sales Revenue,150000,Revenue
+2025-01-06,COGS,Cost of Goods Sold,70000,Expense
+2025-01-07,Rent,Rent Expense,10000,Expense
+2025-01-10,Service Income,Consulting,25000,Revenue
+2025-01-12,Salaries,Payroll,20000,Expense
