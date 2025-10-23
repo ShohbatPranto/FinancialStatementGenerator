@@ -29,6 +29,68 @@ A **Flask-based Financial Statement Generator** that helps businesses and indivi
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/YOUR-USERNAME/FinancialStatementGenerator.git
+```bash```
+git clone https://github.com/ShohbatPranto/FinancialStatementGenerator.git
 cd FinancialStatementGenerator
+
+2. Create a Virtual Environment
+```bash```
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install Dependencies
+```bash```
+pip install -r requirements.txt
+
+4. Run the Application
+```bash```
+python financial_statements_flask_app.py
+Then visit http://127.0.0.1:5000/ in your browser.
+
+
+📁 CSV File Format
+
+Your CSV should include at least the following columns:
+
+Date, Description, Account, Debit, Credit, Balance
+
+Example:
+
+2025-10-01, Product Sales, Sales, 50000, , 50000
+2025-10-03, Rent Payment, Rent, , 10000, 40000
+2025-10-05, Salary Expense, Salaries, , 15000, 25000
+
+🧾 Example Output
+
+Income Statement — Sales, COGS, Operating Expenses, Income Tax, Net Income
+
+Balance Sheet — Assets, Liabilities, Equity
+
+Cash Flow Statement — Operating, Investing, Financing activities
+
+Depreciation Report — Asset-wise depreciation summary
+
+All formatted professionally, similar to official financial statements.
+
+🧠 Future Improvements
+
+🔹 User Authentication
+
+🔹 AI-based Financial Analysis and Comments
+
+🔹 Organization and Account Management
+
+🤝 Contributing
+
+Contributions are welcome!
+Please open an issue or submit a pull request for suggestions or bug fixes.
+
+🧾 License
+
+This project is open-source under the MIT License.
+
+👤 Author
+
+Shohbat Pranto
+📧 shohbatahsanpranto@gmail.com
+💼 Computer Science Graduate with interest in Accounting and Financial Systems
